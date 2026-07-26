@@ -11,6 +11,7 @@ export const Panel = styled.section`
   flex-direction: column;
   gap: 14px;
   min-width: 0;
+  width: 100%;
 `;
 
 export const PanelTitle = styled.h2`
@@ -142,6 +143,7 @@ export const inputStyles = css`
   font-size: 13px;
   outline: none;
   transition: border-color 120ms ease, box-shadow 120ms ease;
+  width: 100%;
 
   &:focus-visible {
     border-color: ${({ theme }) => theme.color.cyan};
