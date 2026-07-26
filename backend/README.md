@@ -9,8 +9,7 @@ através de uma máquina de estados:
 Idle → Carregando → Em voo → Entregando → Retornando → Idle
 ```
 
-> Armazenamento em memória (sem banco de dados) — o foco do desafio é a lógica
-> de alocação/otimização e a simulação de estados, não a persistência.
+> Armazenamento em memória (sem banco de dados)
 
 ## Como executar
 
