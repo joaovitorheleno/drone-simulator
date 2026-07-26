@@ -1,7 +1,6 @@
 # Simulador de Encomendas em Drone — API (NestJS)
 
-Desafio técnico dti digital — Enterprise Hakuna. API que simula uma operação de
-entregas por drone em uma cidade representada por uma malha de coordenadas 2D,
+API que simula uma operação de entregas por drone em uma cidade representada por uma malha de coordenadas 2D,
 alocando pedidos nos drones da frota com o **menor número de viagens possível**,
 respeitando capacidade de carga (kg) e autonomia (km), e simulando cada drone
 através de uma máquina de estados:
@@ -113,7 +112,7 @@ bateria é considerada recarregada automaticamente e, se pousou abaixo do
 limiar (`SIM_LIMIAR_BATERIA_BAIXA`), o drone passa pelo estado
 `bateria_baixa` antes de voltar a ficar `Idle`.
 
-### Diferenciais implementados
+### Implementações
 
 - Otimização inteligente (peso + prioridade + distância, cheapest insertion)
 - Simulação orientada a eventos com estados (não é um CRUD simples)
