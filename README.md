@@ -47,3 +47,11 @@ alocação, o estado do drone e a rota em tempo real no mapa e nos painéis.
 
 Veja `backend/README.md` para detalhes do algoritmo e da máquina de estados,
 e `frontend/README.md` para detalhes do painel.
+
+## Prompts Utilizados
+Utilizei a IA para me auxiliar no desenvolvimento desse projeto, a seguir alguns dos prompts que usei:
+
+- "Me ajude a configurar o projeto backend Node.js (NESTJS) e tambem me ajude a configurar o projeto frontend (React + Typescript)
+- "Preciso de um mapa 2d para exibir a viagem dos drones, como posso fazer isso?"
+- "Meu serviço de criação de drones nao está retornando o que deveria retornar, por que?"
+- "O serviço de exclusão de área nao está funcionando corretamente, revise o que pode ser um bug e me fale a melhor forma para correção"
