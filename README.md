@@ -1,7 +1,6 @@
 # Simulador de Encomendas em Drone
 
-Desafio técnico dti digital (Enterprise Hakuna) — simulação de uma operação
-de entregas por drone em áreas urbanas, com backend em **NestJS** e painel em
+Simulação de uma operação de entregas por drone em áreas urbanas, com backend em **NestJS** e painel em
 **React + TypeScript + styled-components**.
 
 ## Estrutura do repositório
@@ -35,7 +34,7 @@ alocação, o estado do drone e a rota em tempo real no mapa e nos painéis.
 
 ## Resumo do que foi implementado
 
-- Regras básicas do desafio (capacidade, autonomia, malha 2D, pedidos com
+- Regras básicas (capacidade, autonomia, malha 2D, pedidos com
   localização/peso/prioridade) e o objetivo principal (menor número de
   viagens possível).
 - Funcionalidades avançadas: bateria simulada, obstáculos/zonas de exclusão
